@@ -8,9 +8,11 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    hello world
-    </div>
+        <div>
+            hello world
+        <br />
+            <a href="/mvc/home">home(mvc)</a>
+        </div>
     </form>
 </body>
 </html>
