@@ -88,6 +88,10 @@
     <Content Include="Default.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Mvc\App_Start\InitConfig.cs" />
     <Compile Include="Mvc\App_Start\RouteConfig.cs" />
     <Compile Include="Mvc\Controllers\HomeController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -100,6 +104,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="packages.config" />
     <Content Include="Mvc\Views\Home\Index.cshtml" />
