@@ -118,12 +118,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Mvc\Areas\News\Models\" />
-    <Folder Include="Mvc\Areas\News\Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Mvc\Areas\News\Views\Shared\_PartialArea.cshtml" />
+    <Content Include="Mvc\Views\Shared\_Partial1.cshtml" />
+    <Content Include="Mvc\Areas\News\Views\_ViewStart.cshtml" />
     <None Include="Mvc\Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
