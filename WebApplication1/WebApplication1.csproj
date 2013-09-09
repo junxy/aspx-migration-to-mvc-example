@@ -88,6 +88,8 @@
     <Content Include="Default.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mvc\Areas\News\Controllers\HomeController.cs" />
+    <Compile Include="Mvc\Areas\News\NewsAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -105,13 +107,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
     <Content Include="packages.config" />
     <Content Include="Mvc\Views\Home\Index.cshtml" />
     <Content Include="Mvc\Views\Shared\_Layout.cshtml" />
     <Content Include="Mvc\Views\Web.config" />
     <Content Include="Mvc\Views\_ViewStart.cshtml" />
     <Content Include="Mvc\Web.config" />
+    <Content Include="Mvc\Areas\News\Views\Web.config" />
+    <Content Include="Mvc\Areas\News\Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Mvc\Areas\News\Models\" />
+    <Folder Include="Mvc\Areas\News\Views\Shared\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Mvc\Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -125,7 +137,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -7,7 +7,7 @@ namespace WebApplication1.MVC.App_Start
     {
         public static void RegisterMvc()
         {
-            //AreaRegistration.RegisterAllAreas();
+            AreaRegistration.RegisterAllAreas();
 
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             ViewEngines.Engines.Clear();

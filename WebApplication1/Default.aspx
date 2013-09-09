@@ -12,6 +12,8 @@
             hello world
         <br />
             <a href="/mvc/home">home(mvc)</a>
+            <br />
+            <a href="/mvc/news/home">area news home(mvc)</a>
         </div>
     </form>
 </body>
